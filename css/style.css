@@ -1,0 +1,303 @@
+body{
+
+}
+
+@font-face {
+    font-family: didoc;
+    src: url('Didot.ttc');
+}
+
+@font-face {
+    font-family: zap;
+    src: url('Zapfino.ttf');
+}
+
+.boxs{
+	height: 300px;
+	background-color: #ddd;
+	border:1px solid #000;
+}
+
+.firstdiv{
+	margin-top: 52px;
+}
+
+.bgimg{
+	width: 90%;
+	height: 500px;
+	margin:0 auto;
+	background-image:url(../img/images.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+
+.mainbody{
+	width: 90%;
+	height: 1300px;
+	background-color: white;
+	margin:0 auto;
+}
+.box{
+	height:400px;
+	
+}
+
+
+/*
+.infoleft{
+	width: 30%;
+	height: 600px;
+	background-color: red;
+	float: left;
+}
+.inforight{
+	width: 70%;
+	height: 600px;
+	background-color: skyblue;
+	float: left;
+}
+*/
+
+p{
+	margin-top: 30px;
+	font-family: futura;
+	font-size: 15px;
+	font-color:red;
+}
+
+.infoimg1{
+	width: 85%;
+	height: 350px;
+	background-image:url(../img/1.jpg);
+	background-size: cover;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+
+
+
+}
+
+.pkgimg{
+	width: 85%;
+	height: 350px;
+	background-image:url(../img/package.jpg);
+	background-size: cover;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.infoimg2{
+	width: 85%;
+	height: 200px;
+	background-image:url(../img/2.jpg);
+	background-size: cover;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.imagee{
+	width: 500px;
+	height: 700px;
+	background-image:url(../img/5.jpg);
+}
+
+
+
+.bgimg1{
+	margin: 0 auto;
+	width: 100%;
+	height: 535px;
+	background-image:url(../img/3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.bgimg2{
+	margin: 0 auto;
+	width: 100%;
+	height: 535px;
+	background-image:url(../img/4.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.bgimg3{
+	margin: 0 auto;
+	width: 100%;
+	height: 535px;
+	background-image:url(../img/5.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+.mainimagecenter{
+	width: 100%;
+	height: 500px;
+	background-image:url(../img/mainimage.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-position: center;
+	position: relative;
+}
+
+.midcarousel{
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	height: 100px;
+}
+
+.logo{
+	font-family: zap;
+	font-size: 50px;
+	color:white;
+	position: absolute;
+	top:100px;
+	right:50px;
+}
+
+
+/*
+
+<div>
+   <div class="col-xs-6 box leftimg">
+     <div>
+       <div class="infoleft">
+          <div class="infoimg1"></div>
+          <div class="infoimg2"></div>
+       </div>
+
+       <div class="col-xs-6 box">
+        <div class="inforight">
+          <p>About Us</p>
+          <p>At Kinjo Sushi Grill, we offer authentic Japanese food, including Sushi, Tempura, Teriyaki, and varieties of Japanese home-style dishes and delicacies. Try our sushi bar with an outstanding selection of fresh fish! Now you can order delivery from Kinjo Sushi through SkipTheDishes.com!
+We also offer a Sushi Making Class (January – June), catering, and can accommodate your special event. We would be happy to give you more information if you contact us.
+            </p>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div>
+
+  */
+
+
+
+/*
+
+<div class="mainbody">
+    <div>
+      <div class="infoleft">
+        <div class="infoimg1">
+         
+        </div>
+        
+
+        <div class="infoimg2">
+          
+        </div>
+
+      </div>
+      <div class="inforight">
+        <p>About Us</p>
+        <p>At Kinjo Sushi & Grill, we offer authentic Japanese food, including Sushi, Tempura, Teriyaki, and varieties of Japanese home-style dishes and delicacies. Try our sushi bar with an outstanding selection of fresh fish! Now you can order delivery from Kinjo Sushi through SkipTheDishes.com!
+We also offer a Sushi Making Class (January – June), catering, and can accommodate your special event. We would be happy to give you more information if you contact us.</p>
+
+      </div>
+    </div>
+    
+  </div>
+
+*/
+
+
+
+/*
+	<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body imagee">
+      
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+	$('contactModal
+
+*/
+
+		/*
+		<section class="row">
+      <div class="col-xs-4 box"></div>
+      <div class="col-xs-8 box">
+        <p>About Us</p>
+        <p>At Kinjo Sushi & Grill, we offer authentic Japanese food, including Sushi, Tempura, Teriyaki, and varieties of Japanese home-style dishes and delicacies. Try our sushi bar with an outstanding selection of fresh fish! Now you can order delivery from Kinjo Sushi through SkipTheDishes.com!
+We also offer a Sushi Making Class (January – June), catering, and can accommodate your special event. We would be happy to give you more information if you contact us.</p>
+
+
+
+ 		<li><a href="#">LET</a></li>
+        <li><a href="#">ME</a></li>
+        <li><a href="#">SLEEP</a></li>
+
+		<div class="container firstdiv">
+		<section class="row">
+			<div class="col-xs-3 box"></div>
+			<div class="col-xs-9 box">
+				<section class="row">
+				<div class="col-xs-6 boxs"></div>
+				<div class="col-xs-6 boxs"></div>
+				<div class="col-xs-4 boxs"></div>
+				<div class="col-xs-4 boxs"></div>
+				<div class="col-xs-4 boxs"></div>
+			</section>
+			</div>
+		</section>
+		</div>
+
+		<div class="container">
+		<section class="row">
+			<div class="col-xs-3 box"></div>
+			<div class="col-xs-9 box">
+				<section class="row">
+				<div class="col-xs-6 boxs"></div>
+				<div class="col-xs-6 boxs"></div>
+				<div class="col-xs-4 boxs"></div>
+				<div class="col-xs-4 boxs"></div>
+				<div class="col-xs-4 boxs"></div>
+			</section>
+			</div>
+		</section>
+		</div>
+
+
+
+        */
