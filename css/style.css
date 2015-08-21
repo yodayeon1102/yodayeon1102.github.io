@@ -90,6 +90,18 @@ p{
 	margin-right: auto;
 
 }
+
+.macaron1{
+	width: 85%;
+	height: 350px;
+	background-image:url(../img/macaron1.jpg);
+	background-size: cover;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
 .infoimg2{
 	width: 85%;
 	height: 200px;
