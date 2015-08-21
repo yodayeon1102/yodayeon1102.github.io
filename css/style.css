@@ -12,6 +12,11 @@ body{
     src: url('Zapfino.ttf');
 }
 
+@font-face {
+    font-family: abadi;
+    src: url('Abadi MT Condensed Light');
+}
+
 .boxs{
 	height: 300px;
 	background-color: #ddd;
@@ -193,7 +198,7 @@ p{
 }
 
 .logo{
-	font-family: zap;
+	font-family: abadi;
 	font-size: 50px;
 	color:white;
 	position: absolute;
