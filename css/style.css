@@ -13,8 +13,8 @@ body{
 }
 
 @font-face {
-    font-family: abadi;
-    src: url('Abadi MT Condensed Light');
+    font-family: meiryo;
+    src: url('Meiryo.ttf');
 }
 
 .boxs{
@@ -198,7 +198,7 @@ p{
 }
 
 .logo{
-	font-family: abadi;
+	font-family: meyiro;
 	font-size: 50px;
 	color:white;
 	position: absolute;
