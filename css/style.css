@@ -17,6 +17,12 @@ body{
     src: url('Meiryo.ttf');
 }
 
+
+.navbar-default{
+	background: none !important;
+	border: none !important;
+}
+
 .boxs{
 	height: 300px;
 	background-color: #ddd;
@@ -47,6 +53,12 @@ body{
 .box{
 	height:400px;
 	
+}
+
+.footer{
+	width:100%;
+	height: 300px;
+	background-color: black;
 }
 
 
@@ -193,12 +205,12 @@ p{
 .midcarousel{
 	margin-left: auto;
 	margin-right: auto;
-	width: 70%;
-	height: 100px;
+	width: 90%;
+	height: 20px;
 }
 
 .logo{
-	font-family: meyiro;
+	font-family: meiryo;
 	font-size: 50px;
 	color:white;
 	position: absolute;
