@@ -27,6 +27,20 @@ body{
     src: url('Onyx.ttf');
 }
 
+@font-face {
+    font-family: msyi;
+    src: url('msyi.ttf');
+}
+
+@font-face {
+    font-family: imprint;
+    src: url('Imprint MT Shadow.ttf');
+}
+
+@font-face {
+    font-family: harrington;
+    src: url('Harrington.ttf');
+}
 
 .navbar-default{
 	background: none !important;
@@ -91,7 +105,7 @@ body{
 
 p{
 	margin-top: 30px;
-	font-family: futura;
+	font-family: helvetica;
 	font-size: 15px;
 	font-color:red;
 }
@@ -231,46 +245,16 @@ p{
 .footerinfo{
 	color: white;
 	font-size: 12px;
-	font-family: futura;
+	font-family: helvetica;
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
 
 }
 
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
+.menu{
+	background-image:url(../img/Menu_2011.jpg)
 }
-
-@-webkit-keyframes fadeInDown {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-@keyframes fadeInDown {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
 
 
 /*
