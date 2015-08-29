@@ -1,0 +1,62 @@
+body{
+
+}
+
+.contactmainfont{
+	font-size: 50px;
+	text-align: right;
+	font-family: didot;
+}
+
+.contactmainfontt{
+	font-size: 50px;
+	text-align: left;
+	font-family: didot;
+	margin-top:80px;
+}
+
+.contactdesfont{
+	font-size: 15px;
+	text-align: right;
+	font-family: meiryo;
+	margin-top:-10px;
+	padding-right: 15px;
+}
+.contactdesfont2{
+	font-size: 15px;
+	text-align: left;
+	font-family: meiryo;
+	margin-top:-10px;
+	padding-left: 25px;
+
+}
+
+.mainimagecenter{
+	width: 100%;
+	height: 300px;
+	background-image:url(../img/mainimage.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-position: center;
+	position: relative;
+	top:-70px;
+}
+
+
+.clclcl{
+	width: 100%;
+	height: 300px;
+	/*background-color:red;*/
+}
+.qpqpqp{
+	width: 100%;
+	height: 300px;
+}
+
+@media (min-width: 768px) {
+	.cakelogo {
+		font-size: 15px;
+		right:30px;
+	}
+}
