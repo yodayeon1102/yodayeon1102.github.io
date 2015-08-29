@@ -2,9 +2,11 @@ body{
 
 }
 
-.contactfont{
-	font-size: 50px;
+.menubackground{
+	background-image:url(../img/menu_texture.jpg;
 }
+
+
 
 @media (min-width: 768px) {
 	.cakelogo {
