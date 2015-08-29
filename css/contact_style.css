@@ -1,0 +1,14 @@
+body{
+
+}
+
+.contactfont{
+	font-size: 50px;
+}
+
+@media (min-width: 768px) {
+	.cakelogo {
+		font-size: 15px;
+		right:30px;
+	}
+}
