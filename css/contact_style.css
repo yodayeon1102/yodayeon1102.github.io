@@ -12,7 +12,7 @@ body{
 	font-size: 50px;
 	text-align: left;
 	font-family: didot;
-	margin-top:80px;
+	margin-top:65px;
 }
 
 .contactdesfont{
@@ -54,9 +54,18 @@ body{
 	height: 300px;
 }
 
-@media (min-width: 768px) {
-	.cakelogo {
-		font-size: 15px;
-		right:30px;
+@media (max-width: 768px) {
+	.contactdesfont {
+		text-align: center;
+	}
+	.contactmainfont{
+		text-align: center;
+	}
+	.contactmainfontt{
+		text-align: center;
+		margin-top:0px;
+	}
+	.contactdesfont2{
+		text-align: center;
 	}
 }

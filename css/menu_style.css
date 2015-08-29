@@ -2,15 +2,81 @@ body{
 
 }
 
+.mainimagecenter{
+	width: 100%;
+	height: 300px;
+	background-image:url(../img/mainimage.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-position: center;
+	position: relative;
+	top:-70px;
+}
+
 .menubackground{
-	width:100%;
-	height: 700px;
-	background-image:url(../img/menu_texture.jpg);
+	width: 100%;
+	
+	background-image:url(../img/menu_texture_2.jpg);
 	background-size: cover;
 	background-position: center;
 	margin-top: -50px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
+.menuguideline{
+	width:90%;
+	margin-top: -50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.mainfont{
+	font-family: foot;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.menuleft{
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+.menuright{
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+.menudesfont{
+	font-size: 20px;
+	text-align: center;
+	font-family: foot;
+	padding-left: 10px;
+
+}
+
+.menudesfont1{
+	font-size: 20px;
+	text-align: left;
+	font-family: foot;
+	padding-left: 10px;
+
+}
+.menudesfont2{
+	font-size: 20px;
+	text-align: right;
+	font-family: foot;
+	padding-right: 10px;
+}
+.cupcakeleft{
+	text-align: left;
+}
+
+.cupcakeright{
+	text-align: right;
+}
 
 
 @media (min-width: 768px) {

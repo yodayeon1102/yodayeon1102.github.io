@@ -65,7 +65,7 @@ body{
 
 .bgimg{
 	width: 90%;
-	height: 500px;
+	height: 400px;
 	margin:0 auto;
 	background-image:url(../img/images.jpeg);
 	background-size: cover;
@@ -240,7 +240,7 @@ p{
 }
 
 .logo{
-	font-family: onyx;
+	font-family: didot;
 	font-size: 50px;
 	color:white;
 	position: absolute;
@@ -292,11 +292,32 @@ p{
 	-webkit-transition:0.5s;
 }
 
+.aboutdes{
+	width: 80%;
+	text-align: center;
+	font-family: abadi;
+	margin-left: auto;
+	margin-right: auto;
 
+
+}
+
+.aboutpic{
+	width: 70%;
+	height: 300px;
+	text-align: center;
+}
 
 @media (min-width: 768px) {
 	.cakelogo {
 		font-size: 15px;
-		right:30px;
+		text-align: center;
+	}
+}
+@media (max-width: 768px) {
+	.mainimagecenter {
+
+		font-size: 15px;
+		margin-top:70px;
 	}
 }
